@@ -61,7 +61,7 @@ function resetGame() {
 
 function drawCounter() {
     ctx.fillStyle = 'white';
-    ctx.font = '20px Arial';
+    ctx.font = '20px Comic Sans MS';
     ctx.textAlign = 'left';
     ctx.fillText(`Asteroids Left: ${asteroids.length}`, 10, 30);
 }
@@ -69,7 +69,7 @@ function drawCounter() {
 
 function displayMessage(message) {
     ctx.fillStyle = 'white';
-    ctx.font = '48px Arial';
+    ctx.font = '48px Comic Sans MS';
     ctx.textAlign = 'center';
     ctx.fillText(message, canvas.width / 2, canvas.height / 2);
 
@@ -83,7 +83,7 @@ function drawButton() {
         ctx.fillStyle = 'white';
         ctx.fillRect(button.x, button.y, button.width, button.height);
         ctx.fillStyle = 'black';
-        ctx.font = '20px Arial';
+        ctx.font = '20px Comic Sans MS';
         ctx.textAlign = 'center';
         ctx.fillText(button.text, button.x + button.width / 2, button.y + button.height / 2 + 7);
     }
