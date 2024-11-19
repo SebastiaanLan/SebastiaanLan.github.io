@@ -1,11 +1,17 @@
 body {
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #00008B;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 42px;
 }
 
 header, div {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #f0f0f0;
 }
