@@ -1,17 +1,24 @@
 body {
-    height: 100vh;
-    margin: 0;
-    background-color: #00008B;
+    background-color: black;
+}
+
+div {
+    display: grid;
+    place-items: center;
+    height: 95vh; /* or any height you prefer */
 }
 
 h1 {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 42px;
+    color:white
 }
 
-header, div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f0f0f0;
+button {
+    background-color: #0e65dfbb; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
