@@ -1,24 +1,26 @@
 body {
-    background-color: black;
+    background: url("assets/background.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 div {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 20px;
     display: grid;
     place-items: center;
-    height: 95vh; /* or any height you prefer */
-}
-
-h1 {
-    color:white
+    height: 40vh;
+    width: 50vh;
 }
 
 button {
-    background-color: #0e65dfbb; /* Green */
-    border: none;
+    background-color: rgba(128, 0, 192, 1);
     color: white;
+    border: none;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
 }
